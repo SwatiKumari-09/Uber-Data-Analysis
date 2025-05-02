@@ -10,7 +10,7 @@ KPI’s
 4.	Total Trip Distance – What is the total distance covered by all trips?
 5.	Average Trip Distance – How far are customers traveling on average per trip?
 6.	Average Trip Time – What is the average duration of trips?
-7.	
+   
 Outcomes:
 ✔ Identify trends in ride bookings and revenue generation.
 ✔ Analyse trip efficiency in terms of distance and duration.
@@ -75,14 +75,15 @@ o	Data source and refresh frequency.
 •	Use Power Automate or built-in Power BI Export functionality.
 •	Enables users to analyse raw data outside Power BI if needed.
 
-
 DASHBOARD 2: TIME ANALYSIS
 To understand trip patterns based on time, Uber needs to analyse ride demand and trends across different time intervals. This dashboard will help in optimizing operations, pricing, and driver availability.
 Global Dynamic Measure (Filters All Charts)
+
 A measure selector will be created for:
 ✔ Total Bookings
 ✔ Total Booking Value
 ✔ Total Trip Distance
+
 This dynamic measure will update all visuals based on user selection.
 Visualizations:
 By Pickup Time (10-Minute Intervals) - Area Chart
@@ -99,6 +100,7 @@ By Hour and Time - Heatmap (Matrix Grid)
 
 DASHBOARD 3: DETAILS TAB
 To provide in-depth insights and allow users to explore granular data, a Grid Tab will be created. This tab will enable drill-through functionality, allowing users to access detailed records based on selections made in other dashboards.
+
 Features of the Grid Tab:
 	Grid Table with Key Fields:
 •	Displays essential trip details
@@ -108,4 +110,3 @@ Features of the Grid Tab:
 	Bookmark for Full Data View:
 •	A "View Full Data" bookmark to toggle between filtered drill-through data and the complete dataset.
 •	Allows users to reset filters and see all records easily.
-
